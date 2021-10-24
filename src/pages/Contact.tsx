@@ -7,6 +7,7 @@ import GithubIcon from '../pic/github-logo.png'
 import FacebookIcon from '../pic/facebook-circular-logo.png'
 import InstagramIcon from '../pic/instagram.png'
 import TwitterIcon from '../pic/twitter.png'
+import LinkedinIcon from '../pic/linkedin.png'
 import { url } from 'inspector';
 
 export default function Contact() {
@@ -40,9 +41,9 @@ export default function Contact() {
                         </div>
                         <div className="border border-3 rounded-3 row" style={{margin: "2vh 5vh", overflow: "hidden", backgroundColor: "white"}}>
                             <div className="p-2 d-flex justify-content-center col-4">
-                                <img src={FacebookIcon} alt="Github" style={{ width: "60px" }} />
+                                <img src={LinkedinIcon} alt="Github" style={{ width: "60px" }} />
                             </div>
-                            <div className="col-8 d-flex align-items-center" style={{ fontSize: "22px" }}>Nik Struyf</div>
+                            <div className="col-8 d-flex align-items-center" style={{ fontSize: "22px" }}>Nik Kunraho Struyf</div>
                         </div>
                         <div className="border border-3 rounded-3 row" style={{margin: "2vh 5vh", overflow: "hidden", backgroundColor: "white"}}>
                             <div className="p-2 d-flex justify-content-center col-4">
@@ -52,9 +53,9 @@ export default function Contact() {
                         </div>
                         <div className="border border-3 rounded-3 row" style={{margin: "2vh 5vh", overflow: "hidden", backgroundColor: "white"}}>
                             <div className="p-2 d-flex justify-content-center col-4">
-                                <img src={FacebookIcon} alt="Github" style={{ width: "60px" }} />
+                                <img src={InstagramIcon} alt="Github" style={{ width: "60px" }} />
                             </div>
-                            <div className="col-8 d-flex align-items-center" style={{ fontSize: "22px" }}>Nik Struyf</div>
+                            <div className="col-8 d-flex align-items-center" style={{ fontSize: "22px" }}>nik.nks</div>
                         </div>
                     </div>
                 </div>

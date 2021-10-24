@@ -27,7 +27,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid bg-light" style={{ height: "90vh", padding: "5vh" }}>
+            {/* <div className="container-fluid bg-light" style={{ height: "90vh", padding: "5vh" }}>
                 <div className="d-flex justify-content-center">
                     <div className="container-lg rounded-3 overflow-hidden" style={{ backgroundColor: "white", margin: "5vh", height: "40vh" }}>
                         <div className="container-md">
@@ -47,8 +47,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                
-            </div>
+            </div> */}
         </>
     )
 }
