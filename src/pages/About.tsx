@@ -15,9 +15,10 @@ export default function About() {
                     <div className="col-lg-6 offset-lg-1">
                         <div className="row">
                             <div className="col-lg-auto">
-                                <h1>About Me.</h1>
+                                <h1>Nik Kunraho Struyf</h1>
                             </div>
                         </div>
+                        <div className="fst-italic" style={{color: "#50ad5e", fontSize: "20px"}}>20 years / Student</div>
                         <div className="row">
                             <div className="col-md-auto">
                                 <br /><h4>Hello :-)</h4>

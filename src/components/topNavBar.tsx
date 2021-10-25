@@ -12,7 +12,7 @@ function TopNavBar() {
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     {/* <img src={weblogo} alt="" width="40" className="d-inline-block align-text-bottom"/> */}
-                    <span className="align-text-top" style={{fontSize:30, fontFamily:"Comic Sans MS"}}>Nik <span style={{fontFamily:"Lucida Handwriting", color:"#79d186"}}>K.</span> Struyf</span>
+                    <span className="align-text-top" style={{fontSize:32, fontFamily:"Gugi"}}>NIK <span style={{color:"#28bf64",}}>K.</span> STRUYF</span>
                 </Link>
                 <div className="navbar-nav ">
                     <Link className="nav-link mx-2" to="/About" style={{fontSize:22}}>About</Link>

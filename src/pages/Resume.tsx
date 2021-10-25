@@ -12,7 +12,7 @@ export default function Resume() {
                             <div className="row px-4 mb-3">
                                 <div>Study</div>
                                 <div className="progress p-0">
-                                    <div className="progress-bar bg-success" role="progressbar" aria-valuenow={0} aria-valuemin={0} aria-valuemax={100} style={{width: "0%"}}>0</div>
+                                    <div className="progress-bar bg-success" role="progressbar" aria-valuenow={2} aria-valuemin={0} aria-valuemax={100} style={{width: "2%"}}>2%</div>
                                 </div>
                             </div>
                             <div className="row px-4 mb-3">
