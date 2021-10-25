@@ -16,7 +16,7 @@ function TopNavBar() {
                 </Link>
                 <div className="navbar-nav ">
                     <Link className="nav-link mx-2" to="/About" style={{fontSize:22}}>About</Link>
-                    <Link className="nav-link mx-2" to="#" style={{fontSize:22}}>Resume</Link>
+                    <Link className="nav-link mx-2" to="/Resume" style={{fontSize:22}}>Resume</Link>
                     <Link className="nav-link mx-2" to="/Contact" style={{fontSize:22}}>Contact</Link>
                 </div> 
                 
