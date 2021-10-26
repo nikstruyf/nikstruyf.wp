@@ -1,6 +1,7 @@
 import * as React from 'react';
 import TopNavBar from '../components/topNavBar';
 import Nik from '../pic/Nik.jpg';
+import Background1 from '../pic/background-2.jpg'
 
 export default function About() {
 
@@ -21,8 +22,33 @@ export default function About() {
                         <div className="fst-italic" style={{color: "#50ad5e", fontSize: "20px"}}>20 years / Student</div>
                         <div className="row">
                             <div className="col-md-auto">
-                                <br /><h4>Hello :-)</h4>
+                                <br /><h4>Hello :^)</h4>
                                 <h4>I'm Nik. Computer Engineering Student at Kasetsart Univesity, Bangkok Thailand</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid" style={{ height: "auto", backgroundImage: `url(${Background1})` }}>
+                <div className="d-flex justify-content-center">
+                    <div className="container-lg rounded-3 overflow-hidden" style={{ backgroundColor: "white", margin: "5vh", height: "auto", padding: "0 0 3vh 0" }}>
+                        <h3 className="m-3">Fun Facts</h3>
+                        <div className="row px-4 mb-3">
+                            <div>Study</div>
+                            <div className="progress p-0">
+                                <div className="progress-bar bg-success" role="progressbar" aria-valuenow={2} aria-valuemin={0} aria-valuemax={100} style={{ width: "2%" }}>2%</div>
+                            </div>
+                        </div>
+                        <div className="row px-4 mb-3">
+                            <div>Sleep</div>
+                            <div className="progress p-0">
+                                <div className="progress-bar bg-success" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: "100%" }}>100%</div>
+                            </div>
+                        </div>
+                        <div className="row px-4 mb-3">
+                            <div>Money</div>
+                            <div className="progress p-0">
+                                <div className="progress-bar bg-success" role="progressbar" aria-valuenow={5} aria-valuemin={0} aria-valuemax={100} style={{ width: "5%" }}>5%</div>
                             </div>
                         </div>
                     </div>

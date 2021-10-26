@@ -1,7 +1,7 @@
 function ContactBox(props: any) {
     return (
         <>
-            <div className="border border-3 rounded-3 row" style={{ margin: "2vh 5vh", overflow: "hidden", backgroundColor: "white" }}>
+            <div className="row" style={{ margin: "2vh 5vh", overflow: "hidden", backgroundColor: "white", borderStyle: "solid",borderColor: "#28bf64", borderRadius: "50rem"}}>
                 <div className="p-2 d-flex justify-content-center col-4">
                     <img src={props.icon} alt="Github" style={{ width: "60px" }} />
                 </div>

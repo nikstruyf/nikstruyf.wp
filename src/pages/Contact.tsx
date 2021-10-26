@@ -15,10 +15,10 @@ export default function Contact() {
     return (
         <>
             <TopNavBar />
-            <div className="container-fluid display-block bg-light" style={{ height: "85vh" }}>
+            <div className="container-fluid display-block bg-light" style={{ height: "auto" }}>
                 <div className="row">
                     <div className="col-lg-6">
-                        <h1 className="" style={{ margin: "32vh 20vh", fontSize: "60px" }}>MY <br />CONTACT.</h1>
+                        <h1 className="" style={{ margin: "32vh 20vh" }}>MY <br />CONTACT</h1>
                     </div>
                     <div className="col-lg-6" style={{margin: "3vh 0"}}>
                         <ContactBox icon={PhoneIcon} contact="(+66) 93 3912725"/>
